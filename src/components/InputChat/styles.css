@@ -1,0 +1,71 @@
+.areaInput{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 22px;
+}
+
+.areaInput span{
+  height: 1px;
+  width: 100%;
+  background-color: black;
+  margin: 12px 0px;
+  opacity: 20%;
+}
+
+.areaInput form{
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#texto{
+  height: 24px;
+  max-height: 36px;
+  width: 76%;
+  resize: none;
+  font-size: 15px;
+  border: 0 none;
+  outline: none;
+}
+
+#texto::-webkit-scrollbar{
+  width: 5px;
+}
+
+#texto::-webkit-scrollbar-thumb {
+  border-radius: 12px;
+  background-color: #d22ef3;
+}
+
+.btnEnvia{
+  height: 30px;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+}
+
+.btnEnvia:hover{
+  cursor: pointer;
+  background: white;
+  box-shadow: 0px 0px 5px 2px darkgrey;
+  transition: 0.3s;
+}
+
+.more-icons{
+  width: 100px;
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-evenly;
+}
+
+.more-icons img{
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+
+.more-icons img:hover{
+  cursor: pointer;
+  box-shadow: -2px 1px 5px 2px darkgrey;
+}

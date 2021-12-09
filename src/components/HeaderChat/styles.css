@@ -1,0 +1,32 @@
+.pai{
+  width: 100%;
+  padding: 5px;
+  background: linear-gradient(144deg, #24006f -22%, transparent 100%);;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  align-items: center;
+}
+
+.pai img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.tell:hover{
+  cursor: pointer;
+  background-color: whitesmoke;
+  transition: 0.3s;
+}
+
+.title{
+  font-size: 13px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.title span{
+  opacity: 60%;
+}
+
