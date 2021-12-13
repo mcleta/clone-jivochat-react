@@ -1,16 +1,20 @@
 .pai{
-  width: 100%;
-  padding: 5px;
+  width: 315px;
+  padding: 10px;
   background: linear-gradient(144deg, #24006f -22%, transparent 100%);;
-  display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
+  display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .pai img{
   height: 50px;
   width: 50px;
   border-radius: 50%;
+}
+
+.tell important{
+  height: 25px
 }
 
 .tell:hover{
@@ -28,5 +32,6 @@
 
 .title span{
   opacity: 60%;
+  color: rgb(0 0 0 / 60%);
 }
 
