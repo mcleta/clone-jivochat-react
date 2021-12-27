@@ -7,11 +7,13 @@ import InputChat from '../InputChat';
 
 function Chat(){
 
-  const [ displayCss, setDisplayCss ] = useState('block');
+  const [ displayCss, setDisplayCss ] = useState('none');
 
-  const [ textButton, setTextButton] = useState('X')
+  const [ textButton, setTextButton] = useState('🡅')
 
   function changeDisplay() {
+    // let layoutA = document.getElementsByClassName('dialog-chat');
+    
     if (displayCss === 'block') {
       setDisplayCss( 'none' )
       setTextButton('🡅')
@@ -20,7 +22,7 @@ function Chat(){
       setTextButton('X')
     }
 
-    return  
+    return;
   }
 
   return(
@@ -28,6 +30,7 @@ function Chat(){
       <div className="body-chatdom">
         <div className="chat">
           <button
+            className='chat-button'
             onClick={ changeDisplay }
           >
             {textButton}

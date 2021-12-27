@@ -12,16 +12,31 @@
 }
 
 .chat{
-  max-height: 650px;
-  max-width: 350px;
-  background: #dddddd1e;
-  /* grid-template-rows: 0fr 3fr 1fr; */
-  border-radius: 15%;
+  max-width: 450px;
 }
 
+.chat-button{
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  height: 30px;
+  width: 30px;
+  border: 0;
+  border-radius: 15px;
+  padding: 5px;
+  background: #6d29ff;
+  opacity: 80%;
+}
+
+.chat-button:hover{
+  font-size: 20px;
+  transition: 0.3s;
+  background: #5720ce;
+}
 
 .dialog-chat{
   box-shadow: 5px 10px 30px 0.5px black;
   border: 0;
   border-radius: 0px 0px 15px 15px;
 }
+
