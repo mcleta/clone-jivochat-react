@@ -6,8 +6,8 @@ const data = moment("02:00 PM", "h:mm A").format("HH:mm");
 
 function BodyChat() {
   return(
-    <div class="body">
-      <div class="msg">
+    <div className="body">
+      <div className="msg">
         <img src={perfil} alt="foto de perfil" />
         <div className="texto">
           <p>

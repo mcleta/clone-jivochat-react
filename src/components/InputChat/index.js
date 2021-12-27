@@ -6,7 +6,7 @@ import enviar from '../../assets/img/up_arrow2.svg';
 
 function InputChat() {
   return(
-    <div class="areaInput">
+    <div className="areaInput">
       <span/>
       <form action="#" method="get">
         <textarea name="envio" id="texto" placeholder="Digite sua mensagem"></textarea>

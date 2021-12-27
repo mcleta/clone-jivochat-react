@@ -4,13 +4,13 @@ import tell from '../../assets/img/telephone_icon.svg'
 
 function HeaderChat() {
   return (
-    <div class="pai">
+    <div className="pai">
       <img src={perfil} alt="gatinhoPerfil" />
-      <div class="title">
+      <div className="title">
         <p>Converse com a nossa equipe!</p>
         <span>Online</span>
       </div>
-      <img class="tell" src={tell} alt="Liga pah nóis" />
+      <img className="tell" src={tell} alt="Liga pah nóis" />
     </div>
   )
 }

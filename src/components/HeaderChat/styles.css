@@ -5,6 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-radius: 25px 25px 0px 0px;
 }
 
 .pai img{

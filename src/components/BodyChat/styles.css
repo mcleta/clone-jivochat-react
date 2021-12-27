@@ -1,5 +1,5 @@
 .body{
-  max-height: 450px;
+  height: 300px;
   padding: 5px;
 }
 
@@ -23,7 +23,9 @@
   flex-direction: column;
   background-color: #EDEDED;
   padding: 12px;
-  border-radius: 12px;
+  border: 0;
+  border-radius: 15px 15px 15px 0px;
+  box-shadow: 1px 3px 2.5px 0.5px rgba(100, 100, 100, 0.541);
 }
 
 .texto p{
